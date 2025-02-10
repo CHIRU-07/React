@@ -37,6 +37,7 @@ import "animate.css";
 import Parentcomp from './Props/Parentcomp';
 import Condrendering from './Condrendering/Condrendering';
 import Task1 from './Task1';
+import Listrendering from './Listrendering/Listrendering';
 
 
 function App() {
@@ -51,7 +52,8 @@ function App() {
         <Contact/> */}
         {/* <Parentcomp/> */}
         {/* <Condrendering islogged={false}/> */}
-        <Task1/>
+        {/* <Task1/> */}
+        <Listrendering/>
       </div>
     );
   }
