@@ -1,0 +1,64 @@
+.Light {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 30px;
+}
+
+.Light>img {
+    width: 35%;
+}
+
+.lightright {
+    width: 37%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.lightright>h1 {
+    font-size: 3.4rem;
+    width: 85%;
+    color: rgb(46, 24, 106);
+}
+
+.lightright>p {
+    width: 90%;
+    font-size: 1.35rem;
+    color:rgb(46, 24, 106);
+
+}
+
+.comp {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+}
+
+.comp1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    /* border: 2px red solid; */
+    width:50%;
+
+}
+
+.comp1>.y {
+    text-transform: uppercase;
+    width:100%;
+    color:rgb(46, 24, 106);
+
+}
+.comp1 > .text{
+    font-size: 0.9rem;
+    color: rgb(46, 24, 106);
+    
+}

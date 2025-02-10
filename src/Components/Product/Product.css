@@ -1,0 +1,35 @@
+.product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:40px;
+    padding:30px;
+    /* border:2px red solid; */
+}
+.product > h1{
+    width:40%;
+    font-size: 3.4rem;
+    color:rgb(46, 24, 106);
+    /* border:2px red solid; */
+    text-align: center;
+
+
+}
+.product > p{
+    color:rgb(46, 24, 106);
+    font-size: 1.4rem;
+    width:43%;
+    text-align: center;
+    /* border:2px red solid; */
+
+
+}
+button{
+    padding:15px 45px;
+    font-size: 1.1rem;
+    color:white;
+    background-color:rgb(46, 24, 106);
+    box-shadow: rgba(23, 31, 114, 0.2) 0px 16px 30px;
+    border-radius: 5px;
+}

@@ -1,0 +1,32 @@
+.readymade{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    padding:30px;
+    width:100%;
+
+}
+.readymade >img{
+    width:35%;
+    
+}
+.readyleft{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap:20px;
+    width:37%;
+    flex-direction: column;
+}
+.readyleft >h1{
+    font-size: 3.4rem;
+    width:80%;
+    color:rgb(46, 24, 106);
+}
+.readyleft > p{
+    width:90%;
+    font-size: 1.2rem;
+    color:rgb(46, 24, 106);
+
+}

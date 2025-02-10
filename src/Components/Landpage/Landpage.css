@@ -1,0 +1,57 @@
+#landpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    padding:30px;
+    /* width:98vw; */
+}
+#landpage >img{
+    width:35%;
+    
+}
+#landpage > .landleft{
+    width:35%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap:30px;
+
+}
+.landleft > h1{
+    font-size: 3.4rem;
+    width:85%;
+    color:rgb(46, 24, 106);
+
+}
+.landleft > p{
+    width:90%;
+    font-size: 1.3rem;
+    color:rgb(46, 24, 106);
+
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+
+}
+#btn1{
+    padding:15px 45px;
+    font-size: 1.1rem;
+    color:white;
+    background-color:rgb(46, 24, 106);
+    box-shadow: rgba(23, 31, 114, 0.2) 0px 16px 30px;
+    border-radius: 5px;
+}
+#btn2{
+    padding:15px 45px;
+    font-size: 1.1rem;
+   color:rgb(46, 24, 106);;
+    background-color:white;
+    box-shadow: rgba(17, 17, 17, 0.2) 0px 16px 30px;
+    border: none;
+    border-radius: 5px;
+}
