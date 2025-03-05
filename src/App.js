@@ -61,7 +61,7 @@ import React from 'react'
 //     </>
 //   )
 // }
-// import Childcomp from './Classcomp/Childcomp';
+import Childcomp from './Classcomp/Childcomp';
 
 // class App extends React.Component{
 //   render(){
@@ -87,8 +87,8 @@ import React from 'react'
 //   }
 // }
 
-// import Incdec from './Classcomp/inc&dec';
-// import Loginshow from './Classcomp/loginshow';
+import Incdec from './Classcomp/inc&dec';
+import Loginshow from './Classcomp/loginshow';
 // class App extends React.Component{
   
 //   render(){
@@ -108,6 +108,8 @@ class App extends React.Component{
     render(){
     return (
           <div>
+            <Incdec/>  
+        <Loginshow/>
             <ListrnderusingClass/>
           </div>
       )

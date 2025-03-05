@@ -17,10 +17,10 @@ class Incdec extends React.Component{
     
   render(){
     return (
-        <div style={{textAlign:"center"}}>
-           <button onClick={this.decrement}>-</button> 
-            {this.state.count}
-           <button onClick={this.increment}>+</button>  
+        <div style={{textAlign:"center",display:"flex",justifyContent:"center",alignItems:"center",gap:"20px",padding:"20px"}} >
+           <button onClick={this.decrement} style={{fontSize:"1.5rem" ,padding:10}}>-</button> 
+            <p style={{fontSize:"1.5rem" ,padding:10}} >{this.state.count}</p>
+           <button onClick={this.increment} style={{fontSize:"1.5rem" ,padding:10}}>+</button>  
         </div>
       )
   }

@@ -16,8 +16,8 @@ class Loginshow extends React.Component{
     }
   render(){
     return (
-        <div style={{backgroundColor:this.state.color ,padding:"20px"}}>
-           <button onClick={this.changelogin}>Login here</button>
+        <div style={{backgroundColor:this.state.color ,display:"flex",justifyContent:"center",alignItems:"center",gap:"20px",padding:"30px"}}>
+           <button onClick={this.changelogin} style={{fontSize:"1.1rem",padding:"7px 10px"}}>Login here</button>
           {this.state.loginshow && <div>
             <input/>
             <input/>
@@ -26,9 +26,9 @@ class Loginshow extends React.Component{
 
 
            </div> }
-           <button onClick={()=>this.setState({color:this.state.color='red'})}>Red</button>
-           <button onClick={()=>this.setState({color:this.state.color='yellow'})}>Yellow</button>
-           <button onClick={()=>this.setState({color:this.state.color='purple'})}>Purple</button>
+           <button onClick={()=>this.setState({color:this.state.color='red'})} style={{fontSize:"1.1rem",padding:"7px 10px"}}>Red</button>
+           <button onClick={()=>this.setState({color:this.state.color='yellow'})} style={{fontSize:"1.1rem",padding:"7px 10px"}}>Yellow</button>
+           <button onClick={()=>this.setState({color:this.state.color='purple'})} style={{fontSize:"1.1rem",padding:"7px 10px"}}>Purple</button>
 
         </div>
       )
